@@ -1,0 +1,26 @@
+*{
+    margin: 0 auto;
+}
+.main__container{
+    width: 1200px;
+    height: 500px;
+}
+.main__inner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.main__adidas{
+    width: 480px;
+}
+.main__adidas p{
+    font-size: 20px;
+    color: grey;
+    line-height: 25px;
+    padding-top: 30px;
+    padding-bottom: 38px;
+    font-weight: 300;
+}
+.main__adidas h3{
+    font-size: 32px;
+}
