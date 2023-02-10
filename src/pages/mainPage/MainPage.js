@@ -1,7 +1,15 @@
 import React from 'react';
 import classes from "./MainPage.module.css"
+import { useNavigate } from "react-router-dom";
 
 export default function MainPage() {
+
+    const navigate = useNavigate();
+
+    const openFavorite = () => {
+        navigate('/favorites');
+    }
+
     return <>
         <div>
             <div className={classes.main}>
@@ -15,6 +23,7 @@ export default function MainPage() {
                                 Adidas представила свою <br/>
                                 стилистику для Катара 2022 года.</p>
                             <button>Подробнее</button>
+                            <button onClick={openFavorite}>Избранное</button>
                         </div>
                         <div className={classes.main__img}>
 
