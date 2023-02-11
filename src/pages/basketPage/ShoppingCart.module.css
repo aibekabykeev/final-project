@@ -1,0 +1,198 @@
+.container {
+    width: 1280px;
+    margin: 0 auto;
+}
+.leftBlock {
+    display: flex;
+    flex-direction: column;
+}
+.cartItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: solid #C4C4C4 ;
+    margin: 72px 61px 0 0;
+    padding: 34px 0;
+    width: 790px;
+}
+.cartItemSecond {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: solid #C4C4C4 ;
+    border-bottom: solid #C4C4C4 ;
+    margin: 0 61px 0 0;
+    padding: 34px 0;
+    width: 790px;
+}
+.cartItem1 {
+    display: flex;
+}
+.title {
+    margin: 0 0 0 16px;
+    min-width: 147px;
+}
+.title p {
+    margin: 3px 0 0 0;
+}
+.title h4{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 20px;
+    line-height: 26px;
+    color: #284F49;
+    margin: 0;
+}
+.title b{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 20px;
+    line-height: 26px;
+    color: #000000;
+    margin: 0;
+}
+.title strong{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    color: #9C9C9C;;
+    margin: 0;
+}
+.counter {
+    font-family: 'Fira Sans', sans-serif;
+    display: flex;
+    height: 50px;
+    color: #908E8E;
+    align-items: center;
+}
+.count {
+    margin: 0 10px 0 10px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button__wrapper > * {
+    border: none;
+    background-color: white;
+    box-shadow: 0 0 10px #cfd8dc;
+    font-weight: bold;
+    font-size: 16px;
+    color: inherit;
+    border-radius: 15px;
+    outline: none;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    transition: background-color 250ms ease-in-out, transform 50ms ease-in-out;
+}
+.button__wrapper > *:hover {
+    background-color: #cfd8dc;
+}
+.button__wrapper > *:active {
+    transform: scale(0.9);
+}
+.button__wrapper > *:focus {
+    box-shadow: 0 0 0 3px #908E8E;
+}
+.price {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 18px;
+    color: #006195;
+}
+.basket {
+    cursor: pointer;
+}
+
+.clearBasket {
+    display: flex;
+    align-items: center;
+    margin: 35px 0 0 550px;
+    width: 240px;
+    height: 40px;
+    cursor: pointer;
+
+}
+.clearBasket h4{
+    margin: 0 0 0 12px;
+    color: #006195;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 18px;
+}
+.mainBlock {
+    display: flex;
+}
+.rightBlock {
+    width: 420px;
+    height: 330px;
+    border: solid #C4C4C4;
+    border-radius: 10px;
+    margin: 72px 0 0 5px;
+    padding: 46px 13px 50px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.title_right {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #002F2C;
+    margin: 0;
+
+}
+.input {
+    border: 1px solid #EDE8E9;
+    border-radius: 4px;
+    height: 40px;
+    padding: 0 0 0 9px;
+    text-decoration-color: #006195;
+    font-size: 16px;
+}
+.title_right1 {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #4D4D4D;
+}
+.title_right2 {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #4D4D4D;
+    border-top: solid #C4C4C4 1px;
+    border-bottom: solid #C4C4C4 1px;
+}
+.title_right2 b{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #000000;
+}
+
+.btn {
+    height: 43px;
+    color: white;
+    background-color: #006195;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Fira Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 15px;
+    cursor: pointer;
+    transition: background-color 250ms ease-in-out, transform 50ms ease-in-out;
+}
+
+.btn:active{
+    background-color: #114d6d;
+  transform: translateY(1px);
+}
+
+
+
