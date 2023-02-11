@@ -1,0 +1,131 @@
+
+p{
+    margin: 0;
+}
+.block {
+    display: flex;
+    justify-content: space-around;
+}
+.container {
+    width: 1280px;
+}
+
+.mainTitle {
+    font-family: 'Fira Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    color: #006195;
+    display: flex;
+    justify-content: center;
+    margin: 118px 0 43px 0;
+}
+.inputAndBtn {
+    display: flex;
+    justify-content: center;
+    margin: 0 0 42px 0;
+}
+.inputNum {
+    position: relative;
+    width: 450px;
+    height: 51px;
+    padding: 0 13px 0 13px;
+    font-size: 20px;
+    border-radius: 5px;
+    border-style: solid;
+}
+
+.buttonProduct {
+    position: absolute;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 18px;
+    border-radius: 5px;
+    width: 240px;
+    height: 54px;
+    color: #FFFFFF;
+    background-color: #006195;
+    cursor: pointer;
+    border: none;
+    right: 480px;
+}
+.buttonProduct:active{
+    background-color: #114d6d;
+  transform: translateY(1px);
+}
+
+
+.titleGray {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 16px;
+    color: #969696;
+}
+.titleBlack {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 16px;
+    color: #000000;
+    margin: 18px 0 18px 0;
+}
+
+
+.titleStatus {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 16px;
+    color: #000000;
+}
+
+
+
+.productInfo {
+    width: 500px;
+    height: 800px;
+
+}
+.productInfo_inner  {
+    display: flex;
+    justify-content: space-between;
+    margin: 0; 
+    text-align: left;
+}
+.productInfo_inner2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 42px 0;
+    font-family: 'Fira Sans', sans-serif;
+    text-align: left;
+}
+.titleBlack2 {
+    font-family: 'Fira Sans', sans-serif;
+    display: flex;
+    font-size: 16px;
+    margin: 0 0 18px 0;
+}
+.titleGray2 {
+    font-family: 'Fira Sans', sans-serif;
+    margin: 0 0 18px 0;
+    font-size: 16px;
+    color: #969696;
+
+}
+
+.muiAccordion {
+    margin: 30px 0;
+}
+
+
+
+.mainTrackingBlock {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.mainTrackingProduct {
+    margin: 0 0 185px 0;
+}
+
+.statusMui {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
