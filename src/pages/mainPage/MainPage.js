@@ -10,6 +10,10 @@ export default function MainPage() {
         navigate('/favorites');
     }
 
+    const openProduct =() => {
+        navigate('/product')
+    }
+
     return <>
         <div>
             <div className={classes.main}>
@@ -24,6 +28,7 @@ export default function MainPage() {
                                 стилистику для Катара 2022 года.</p>
                             <button>Подробнее</button>
                             <button onClick={openFavorite}>Избранное</button>
+                            <button onClick={openProduct}>Product</button>
                         </div>
                         <div className={classes.main__img}>
 

@@ -1,0 +1,44 @@
+.mainText .text {
+    color: #006195;
+    font-size: 35px;
+    font-weight: 900;
+}
+
+.imageBox {
+    width: 625px;
+}
+
+.image {
+    box-shadow: none !important;
+}
+
+.paragraph {
+   color: #000000;
+    font-size: 18px!important;
+    font-weight: 300;
+    width: 570px;
+    border: 3px solid #006195;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.reviews {
+    color: #000000;
+    font-size: 18px;
+}
+
+.stars>.star {
+    box-shadow: none;
+}
+
+.stars {
+    padding-left: 120px;
+}
+
+.reviewsBox {
+    padding-top: 28px;
+}
+
+.btn {
+    padding: 0 !important;
+}

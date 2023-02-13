@@ -1,0 +1,90 @@
+.image {
+    box-shadow: none !important;
+}
+
+.title {
+    font-weight: bold !important;
+    color: #000000;
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+.article {
+    color: #9C9C9C;
+    text-align: left;
+    font-size: 20px;
+    padding-bottom: 38px;
+}
+
+.colorText {
+    color: #999999;
+    font-size: 20px;
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+.colors {
+    padding: 0!important;
+}
+
+.color {
+    color: #3F3F3F;
+}
+
+.color2 {
+    color: #E0B20D;
+}
+
+.color3 {
+    color: #E9E1EE;
+}
+
+.color4 {
+    color: #375B3D;
+}
+
+.color5 {
+    color: #A5B8C9;
+}
+
+.sizeText {
+    color: #9C9C9C;
+    font-size: 20px;
+    padding-bottom: 13px;
+}
+
+.size {
+    color: #000000;
+    font-size: 17px;
+    padding-bottom: 46px;
+    /*padding-right: 20px;*/
+}
+
+.prices>.price {
+    color: #B0B0B0;
+    font-size: 30px;
+    font-weight: 500;
+    padding-left: 45px;
+}
+
+.prices>.currencyPrice {
+    color: #18394A;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.btnBay {
+    background-color: #006195 !important;
+    width: 169px !important;
+}
+
+.btn {
+   background-color: #006195 !important;
+}
+
+.line {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.48);
+    padding-top: 152px;
+}
+
+

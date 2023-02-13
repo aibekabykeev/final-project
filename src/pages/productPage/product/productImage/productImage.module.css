@@ -1,0 +1,40 @@
+.imageContent {
+    display: flex;
+    justify-content: center;
+    padding-top: 152px;
+}
+
+.line {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.48);
+    width: 1000px;
+}
+
+.mainPhoto {
+    width: 1200px;
+    height: 500px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.image {
+    position: absolute;
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+}
+
+.image>img {
+    width: 1000px;
+}
+
+.blueLine {
+    background-color: #006195;
+    height: 14px;
+    width: 1200px;
+}
+
+.imageDescription {
+    font-size: 30px!important;
+    text-align: center;
+}
