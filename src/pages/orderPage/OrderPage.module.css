@@ -1,0 +1,272 @@
+.h1{
+    position: absolute;
+    height: 48px;
+    left: -76%;
+    right: -3.76%;
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: -0.0944444px;
+    color: #006195;
+}
+.p1{
+    position: absolute;
+    width: 144px;
+    height: 15px;
+    left: 45px;
+    top: 80px;
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+.email{
+    box-sizing: border-box;
+    position: absolute;
+    height: 74px;
+    width: 558px;
+    left: 41px;
+    top: 135px;
+    background: #FFFFFF;
+    border: 1px solid #006195;
+    border-radius: 10px;
+}
+.name{
+    box-sizing: border-box;
+    position: absolute;
+    width: 236px;
+    height: 74px;
+    left: 43px;
+    top: 220px;
+    background: #FFFFFF;
+    border: 1px solid #006195;
+    border-radius: 10px;
+}
+.surname{
+    box-sizing: border-box;
+    position: absolute;
+    height: 73.62px;
+    width: 300px;
+    left: 300px;
+    top: 220px;
+    background: #FFFFFF;
+    border: 1px solid #006195;
+    border-radius: 10px;
+}
+.phone{
+    box-sizing: border-box;
+    position: absolute;
+    height: 74px;
+    width: 558px;
+    left: 41px;
+    top: 305px;
+    background: #FFFFFF;
+    border: 1px solid #006195;
+    border-radius: 10px;
+}
+.p2{
+    position: absolute;
+    width: 144px;
+    height: 15px;
+    left: 45px;
+    top: 400px;
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+.settlement{
+    box-sizing: border-box;
+    position: absolute;
+    height: 74px;
+    width: 556px;
+    left: 41px;
+    top: 455px;
+    background: #FFFFFF;
+    border: 1px solid #006195;
+    border-radius: 10px;
+}
+.street{
+    box-sizing: border-box;
+    position: absolute;
+    height: 74px;
+    width: 353px;
+    left: 41px;
+    top: 540px;
+    background: #FFFFFF;
+    border: 1px solid #006195;
+    border-radius: 10px;
+}
+.postCode{
+    box-sizing: border-box;
+    position: absolute;
+    height: 74px;
+    width: 183px;
+    left: 415px;
+    top: 540px;
+    background: #FFFFFF;
+    border: 1px solid #006195;
+    border-radius: 10px;
+}
+.house{
+    box-sizing: border-box;
+    position: absolute;
+    height: 74px;
+    width: 175px;
+    left: 41px;
+    top: 625px;  
+    background: #FFFFFF;
+    border: 1px solid #006195;
+    border-radius: 10px;
+}
+.entrance{
+    box-sizing: border-box;
+    position: absolute;
+    height: 74px;
+    width: 157px;
+    left: 235px;
+    top: 625px;   
+    background: #FFFFFF;
+    border: 1px solid #006195;
+    border-radius: 10px;
+}
+.apartment{
+    box-sizing: border-box;
+    position: absolute;
+    height: 74px;
+    width: 183px;
+    left: 415px;
+    top: 625px;    
+    background: #FFFFFF;
+    border: 1px solid #006195;
+    border-radius: 10px;
+}
+.p3{
+    position: absolute;
+    width: 144px;
+    height: 15px;
+    left: 45px;
+    top: 710px;
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+.delivery{
+    box-sizing: border-box;
+    position: absolute;
+    height: 74px;
+    width: 556px;
+    left: 41px;
+    top: 765px;   
+    background: #FFFFFF;
+    border: 1px solid #006195;
+    border-radius: 10px;
+}
+.p4{
+    position: absolute;
+    width: 144px;
+    height: 15px;
+    left: 45px;
+    top: 855px;
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+.masterCard{
+    box-sizing: border-box;
+    position: absolute;
+    height: 74px;
+    width: 552px;
+    left: 41px;
+    top: 910px; 
+    background: #FFFFFF;
+    border: 1px solid #006195;
+    border-radius: 10px;
+}
+.visa{
+    box-sizing: border-box;
+    position: absolute;
+    height: 74px;
+    width: 552px;
+    left: 41px;
+    top: 995px; 
+    background: #FFFFFF;
+    border: 1px solid #006195;
+    border-radius: 10px;
+}
+.btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    position: absolute;
+    width: 285px;
+    height: 55px;
+    left: 180px;
+    top: 1150px;
+    background: #006195;
+    color: #FFFFFF;
+    border-radius: 10px;
+}
+.p5{
+    position: absolute;
+    width: 550px;
+    height: 15px;
+    left: 45px;
+    top: 1080px;
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+.p6{
+    position: absolute;
+    width: 144px;
+    height: 15px;
+    left: 800px;
+    top: 540px;
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+.textarea{
+    box-sizing: border-box;
+    position: absolute;
+    left: 800px;
+    top: 595px;
+    background: #FFFFFF;
+    border: 1px solid #006195;
+    border-radius: 10px;
+}

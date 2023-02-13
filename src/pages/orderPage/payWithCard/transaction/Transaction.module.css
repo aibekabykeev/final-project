@@ -1,0 +1,34 @@
+.h1{
+    position: absolute;
+    width: 556px;
+    height: 43px;
+    left: 430px;
+    top: 300px;
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+    color: #006195;
+}
+.h6{
+    position: absolute;
+    width: 301px;
+    height: 39px;
+    left: 550px;
+    top: 360px;
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    color: #7E7E7E;
+}
+.p{
+    position: absolute;
+    left: 680px;
+    top: 400px;
+    color: #006195;
+}
