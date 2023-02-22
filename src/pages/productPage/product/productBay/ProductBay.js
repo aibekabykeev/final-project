@@ -1,17 +1,25 @@
 import React from 'react';
 import classes from './product.module.css';
 import {
-  Box, Button, Card, CardContent, CardMedia, colors, Container, Grid, IconButton, Stack, Typography
+  Box, Button, Card, CardMedia, Container, Grid, IconButton, Stack, Typography
 } from "@mui/material";
+import Carousel from "react-material-ui-carousel";
 import { Brightness1 } from "@mui/icons-material";
 import basket from './image/basket.png'
+import sneakers2 from './image/sneakers2.jpg'
+import sneakers3 from './image/sneakers3.jpg'
 import sneakers1 from './image/sneakers1.jpg'
 
 const ProductBay = () => {
 
+  const images = [
+    {image: sneakers1},
+    {image: sneakers2},
+    {image: sneakers3}
+  ]
+
   const selectedProduct = {
     name: 'Кроссовки Nike Air Max 97',
-    image: sneakers1,
     code: '22558',
     sizes: [39, 40, 41, 43, 44],
     price: 9200,
@@ -32,14 +40,14 @@ const ProductBay = () => {
       <Grid display={"flex"} justifyContent={"space-between"} mt={10}>
 
         <Box width='48%'>
-          <Card className={classes.image}>
-            <CardMedia
-              component="img"
-              image={selectedProduct.image}
-            />
-          </Card>
+          <Carousel animation="fade" duration={1000} height={400} indicators={false}>
+            {images.map(img =>
+              <img className={classes.image} src={img.image} alt=""/>
+            )}
+          </Carousel>
           <div className={classes.line}></div>
         </Box>
+
 
 
         <Box width='48%' >

@@ -1,7 +1,6 @@
 import React from 'react';
 import { Box, Button, Card, CardMedia, Container, Grid, Typography } from "@mui/material";
 import sneakers2 from './image/sneakers2.jpg'
-import sneakers3 from './image/sneakers3.jpg'
 import starFilled from './image/starFilled.svg'
 import chevronDown from './image/chevronDown.svg'
 import classes from './productReviews.module.css'
@@ -10,8 +9,7 @@ const ProductReviews = () => {
 
   const reviewsProduct = {
     name: 'Nike Air Max 97',
-    image: sneakers2,
-    imageTwo: sneakers3
+    image: sneakers2
   }
 
   const reviews = {
@@ -27,19 +25,8 @@ const ProductReviews = () => {
     <Container>
       <Grid display={"flex"} justifyContent={"space-between"}>
         <Box pt={5} className={classes.mainText}>
-          <Box>
-            <Typography className={classes.text}>
-              Nike Air Max 97
-            </Typography>
-          </Box>
 
           <Box display={"flex"} justifyContent={"space-between"} className={classes.imageBox} pr={10}>
-            <Card className={classes.image}>
-              <CardMedia
-                component="img"
-                image={reviewsProduct.imageTwo}
-              />
-            </Card>
 
             <Card className={classes.image}>
               <CardMedia
@@ -48,9 +35,6 @@ const ProductReviews = () => {
               />
             </Card>
           </Box>
-          <Typography className={classes.text}>
-            Стиль и Удобство
-          </Typography>
         </Box>
 
         <Box pt={5}>

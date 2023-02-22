@@ -1,5 +1,7 @@
 .image {
     box-shadow: none !important;
+    width: 550px;
+    height: 450px;
 }
 
 .title {
